@@ -30,7 +30,7 @@ Resultaat: Overlay verandert correct naar Street View bij inzoomen.
 * Ik probeerde verschillende kleuropties uit en controleerde of de wijzigingen correct werden toegepast.
   
 Resultaat: Kleuren kunnen correct worden aangepast en toegepast op de kaart en achtergrond.
-5. Inhoudsaanpassing in de inhoudseditor:
+## 5. Inhoudsaanpassing in de inhoudseditor:
 * Ik wijzigde de inhoud in de editor en controleerde ik of de wijzigingen correct werden weergegeven in de applicatie.
 Resultaat: Inhoud wordt correct aangepast en weergegeven wanneer gewijzigd in de inhoudseditor.
 
