@@ -1,12 +1,12 @@
 # DEBRIEFING
 
-#Projectoverzicht:
+##Projectoverzicht:
 Het doel van dit project was het ontwikkelen van een webwidget waarmee gebruikers een interactieve kaart kunnen aanpassen, inclusief het plaatsen van markers op specifieke locaties. 
 Deze markers bevatten verschillende inhoudstypen, zoals afbeeldingen, tekst en knoppen, om gebruikers in staat te stellen gedetailleerde informatie over die locaties te presenteren. 
 Bovendien moest de widget Street View-functionaliteit bieden en aanpasbaar zijn in termen van kleuren en markerinhoud. 
 Het belangrijkste doel was om bedrijven een eenvoudige manier te bieden om locaties aan te wijzen en informatie over die locaties te presenteren aan hun doelgroep.
 
-#Belangrijkste Kenmerken:
+##Belangrijkste Kenmerken:
 
 ##Interactieve Kaart:
 *Gebruikers kunnen een kaart bekijken en navigeren.
