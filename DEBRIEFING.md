@@ -13,8 +13,8 @@ Het belangrijkste doel was om bedrijven een eenvoudige manier te bieden om locat
 * De kaart is volledig aanpasbaar in termen van kleuren en stijlen.
 
 ## Plaatsen van Markers:
-* Gebruikers kunnen markers plaatsen op specifieke locaties met behulp van breedtegraad- en lengtegraadcoördinaten.
-* Markers zijn aanpasbaar in termen van uiterlijk en inhoud.
+* Gebruikers kunnen markers plaatsen op specifieke locaties met behulp van Lat en Long coördinaten.
+* Markers zijn aanpasbaar van uiterlijk en inhoud.
 
 ## Automatisch Markerplaatsing via Google Data Sheet-link:
 * Gebruikers kunnen markers automatisch plaatsen door een link naar een Google Data Sheet te verstrekken waarin locatiegegevens en markerinhoud zijn opgeslagen.
@@ -22,7 +22,7 @@ Het belangrijkste doel was om bedrijven een eenvoudige manier te bieden om locat
 * Dit maakt het gemakkelijker voor gebruikers om grote hoeveelheden locaties tegelijk toe te voegen en bij te werken, en stroomlijnt het proces van het bijhouden van markerinformatie in een vertrouwde omgeving zoals Google Sheets.
 
 ## Markerinhoud:
-* Elke marker kan verschillende inhoud bevatten, zoals afbeeldingen, tekst en knoppen.
+* Elke marker kan verschillende inhoud bevatten, zoals afbeelding, tekst en knop.
 * Deze inhoud kan worden aangepast en geconfigureerd door de gebruiker.
 
 ## Street View:
