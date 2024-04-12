@@ -24,6 +24,7 @@ Resultaat: Markers worden correct geplaatst op basis van ingevoerde adressen.
 
 ## 3. Overlay verandert naar Street View bij inzoomen:
 * Ik zocht een locatie op de kaart en zoomde in om te controleren of de overlay correct veranderde naar Street View.
+  
 Resultaat: Overlay verandert correct naar Street View bij inzoomen.
 
 ## 4. Correcte aanpassing van kaart- en achtergrondkleuren:
@@ -31,7 +32,8 @@ Resultaat: Overlay verandert correct naar Street View bij inzoomen.
   
 Resultaat: Kleuren kunnen correct worden aangepast en toegepast op de kaart en achtergrond.
 ## 5. Inhoudsaanpassing in de inhoudseditor:
-* Ik wijzigde de inhoud in de editor en controleerde ik of de wijzigingen correct werden weergegeven in de applicatie.
+* Ik wijzigde de inhoud in de editor en controleerde of de wijzigingen correct werden weergegeven in de applicatie.
+  
 Resultaat: Inhoud wordt correct aangepast en weergegeven wanneer gewijzigd in de inhoudseditor.
 
 # Conclusie:
