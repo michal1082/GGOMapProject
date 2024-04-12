@@ -12,13 +12,13 @@
 
 # Testcases en Resultaten:
 ## 1. Markers plaatsen met Google Sheets-data:
-* Importeerde ik gegevens van Google Sheets en controleerde of markers correct werden geplaatst.
-* Wijzigde ik de gegevens in Google Sheets en controleerde ik of de wijzigingen correct werden bijgewerkt in de applicatie.
+*  Ik importeerde gegevens van Google Sheets en controleerde of markers correct werden geplaatst en of de inhoud ook correct is.
+*  Ik wijzigde de gegevens in Google Sheets en controleerde of de wijzigingen correct werden bijgewerkt in de applicatie.
 
 Resultaat: Gegevens worden correct geïmporteerd en markers geplaatst.
 
 ## 2. Handmatig markeren met adressen:
-* Voerde ik adressen handmatig in en controleerde ik of markers correct werden geplaatst op de kaart.
+* Ik voerde adressen handmatig in en controleerde of markers correct werden geplaatst op de kaart.
 
 Resultaat: Markers worden correct geplaatst op basis van ingevoerde adressen.
 
@@ -31,7 +31,8 @@ Resultaat: Overlay verandert correct naar Street View bij inzoomen.
   
 Resultaat: Kleuren kunnen correct worden aangepast en toegepast op de kaart en achtergrond.
 5. Inhoudsaanpassing in de inhoudseditor:
-* Wijzigde ik de inhoud in de editor en controleerde ik of de wijzigingen correct werden weergegeven in de applicatie.
+* Ik wijzigde de inhoud in de editor en controleerde ik of de wijzigingen correct werden weergegeven in de applicatie.
 Resultaat: Inhoud wordt correct aangepast en weergegeven wanneer gewijzigd in de inhoudseditor.
-Conclusie:
+
+# Conclusie:
 Applicatie voldoet aan testdoelen. Functionaliteiten werken zoals verwacht zonder problemen.
