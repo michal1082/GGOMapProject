@@ -1,5 +1,6 @@
 # RETROSPECTIVES
 
+## RETROSPECTIVE SPRINT 1
 * Deze sprint geef ik een 9/10.
 * Wat ik zou veranderen is. meer aandacht geven aan een specifieke code stuk voordat ik verder ga met iets anders
 * Grootste stress source wat de tijd.
@@ -7,6 +8,7 @@
 * Deze sprint was er goede teamwork met andere developers.
 * Er was deze sprint heel veel progress.
 
+## RETROSPECTIVE SPRINT 2
 * Deze sprint geef ik een 8/10
 * Ik zou mijn examen op een andere tijd inplannen zodat ik het niet op een terugkomdag heb.
 * Stress was weer door niet genoeg tijd hebben door de terugkomdag.
