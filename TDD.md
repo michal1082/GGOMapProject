@@ -1,5 +1,5 @@
 #  Custom Map
-## Technical Design Document
+## Documentation
 
 ---
 
