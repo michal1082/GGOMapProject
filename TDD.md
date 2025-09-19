@@ -47,13 +47,53 @@ bedrijven en organisaties die locatie gerelateerde informatie willen delen met h
 ## Realisatie
 
 ### Belangrijke keuzes
-Het moet een map library zijn die geen API keys gebruikt zoals leaflet en geen mapbox zodat het op meerdere sites zonder verschillende accounts werkt.  
+#### 1. Map library zonder API keys
 
-De data van de markers zoals image, name, description moeten makkelijk aanpasbaar zijn voor klanten dus het mag geen ingewikkelde database zijn zoals MySQL. Daarom wordt ervoor gekozen om de map te connecten met google sheets.  
+**Gekozen optie:** Leaflet  
 
-Het land dat word getoont op de map moet aangepast kunnen worden door de klant. En handlebars kan geen private database accessen. Daarom worden geoJson map files op github public geupload en door die link opgehaald.  
+**Waarom:**  
+Leaflet is volledig open-source, lichtgewicht en vereist geen API-keys. Hierdoor kan de map gemakkelijk op meerdere websites gebruikt worden zonder dat elke klant een apart account moet aanmaken.
 
-### Belangrijke bronnen
+**Alternatieven:**   
+- **Google Maps JS API:** Zeer uitgebreid en bekend, maar vereist een API key en kan kosten met zich meebrengen bij veel gebruik.
+- **Mapbox:** Makkelijk in gebruik, veel features en stijlen beschikbaar, maar vereist een API key en kan kosten met zich meebrengen bij veel gebruik.    
+
+**Reden keuze:**  
+Leaflet biedt de juiste balans tussen eenvoud, flexibiliteit en onafhankelijkheid van API keys.
+
+---
+
+#### 2. Data van markers makkelijk aanpasbaar maken
+
+**Gekozen optie:** Google Sheets als datasource  
+
+**Waarom:**  
+Google Sheets is eenvoudig te gebruiken door klanten, Het word makkelijk ingeladen door het systeem waar we in werken dat goed is voor de seo. Data zoals `image`, `name` en `description` kunnen makkelijk aangepast worden.
+
+**Alternatieven:**  
+- **JSON-bestanden op GitHub:** Makkelijk voor ontwikkelaars, maar minder intuïtief voor klanten.  
+- **No-code databases zoals Airtable:** Ook mogelijk, maar vereist vaak een API key of account per klant.  
+
+**Reden keuze:**  
+Google Sheets is eenvoudig voor niet-technische gebruikers en schaalbaar zonder extra infrastructuur.
+
+---
+
+#### 3. Aanpasbaar land of regio op de kaart
+
+**Gekozen optie:** GeoJSON bestanden op GitHub publiceren  
+
+**Waarom:**  
+GeoJSON is een standaardformaat voor geografische data. Door de bestanden openbaar op GitHub te zetten, kan Handlebars deze inlezen zonder dat er private database toegang nodig is. Hierdoor kan de klant het land of de regio eenvoudig aanpassen door een ander GeoJSON-bestand te selecteren.
+
+**Alternatieven:**  
+- **Shapefiles omzetten naar GeoJSON:** Goed voor uitgebreide geografische data, maar minder direct bewerkbaar.  
+- **Direct vanuit een database server ophalen:** Kan krachtig zijn, maar vereist beheer van server en authenticatie, wat niet wenselijk is voor klanten zonder technische kennis.  
+
+**Reden keuze:**  
+GitHub + GeoJSON is eenvoudig, openbaar en direct compatible met Leaflet en andere JS map libraries.  
+
+#### Belangrijke bronnen
 - Map library: https://leafletjs.com/  
 - Map style: https://www.openstreetmap.org/#map=7/52.154/5.295  
 - Custom GeoJson: https://raw.githubusercontent.com/michal1082/StageExamen/main/custom.geo.json  
