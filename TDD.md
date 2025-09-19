@@ -59,7 +59,7 @@ Leaflet is volledig open-source, lichtgewicht en vereist geen API-keys. Hierdoor
 - **Mapbox:** Makkelijk in gebruik, veel features en stijlen beschikbaar, maar vereist een API key en kan kosten met zich meebrengen bij veel gebruik.    
 
 **Reden keuze:**  
-Leaflet biedt de juiste balans tussen eenvoud, flexibiliteit en onafhankelijkheid van API keys.
+Leaflet biedt de juiste balans tussen eenvoud, flexibiliteit en onafhankelijkheid van API keys waardoor er geen kosten zijn.
 
 ---
 
@@ -75,7 +75,7 @@ Google Sheets is eenvoudig te gebruiken door klanten, Het word makkelijk ingelad
 - **No-code databases zoals Airtable:** Ook mogelijk, maar vereist vaak een API key of account per klant.  
 
 **Reden keuze:**  
-Google Sheets is eenvoudig voor niet-technische gebruikers en schaalbaar zonder extra infrastructuur.
+Google Sheets is eenvoudig voor niet-technische gebruikers, schaalbaar zonder extra infrastructuur. En het word gebruikt voor goede SEO binnen ons systeem.
 
 ---
 
